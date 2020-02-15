@@ -2,18 +2,25 @@
 <html>
   <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <title>Akan Name App</title>
+    <title>The Akan Name App</title>
   </head>
   <body>
     <h1>The Akan App</h1>
-    <form id="form_1">
-      <label for="the_date">Birthday Date :- Day - Month - Year</label> <br> <br>
-      <input type="date" id="" name="d_input" value=""> <br> <br>
-      <input type="radio" id="male" name="gender" value="male">
-      <label for="male">Male</label> <br>
-      <input type="radio" id="female" name="gender" value="female">
-      <label for="female">Female</label> <br><br>
-      <input type="button" onclick="myFunction(this.form)" value="Submit">
+    <h2>Know Akan</h2>
+    <p>The Akan App requests for your birthday date and then calculates the day of the week you were born and then depending on your gender outputs the respective  Akan name.</p>
+    <p><strong><em>What are Akan names? </em></strong>These are Ghanian names given to children as their first name. This names correspond to the day in the week a child is born. Men have different Akan Names to those of women.</p>
+    <p>For boys they are named Kwasi (Sunday), Kwadwo (Monday), Kwabena (Tuesday), Kwaku (Wednesday), Yaw (Thursday), Kofi (Friday) and Kwame (Saturday).</p>
+    <p>For girls born they are named Akosua (Sunday), Adwoa (Monday), Abenaa (Tuesday), Akua (Wednesday), Yaa (Thursday), Afua (Friday) and Ama (Saturday).</p>
+
+    <form id="form1">
+        Lets go! :-) Enter you birth date here: <input type="date" id="date_input" value=""> <br> <br>
+        Your Gender here: <select id="genders">
+          <option>Male</option>
+          <option>Female</option>
+        </select> <br> <br>
+        <button type="button" value="submit" onclick="myFunction2()">Akanize :-)</button> <br> <br>
+        <!--<input type="button" onClick="theFunction(this.form)" value ="Check Date as entered">-->
+        <p id="print"></p>
     </form>
     <script src="js/scripts.js"></script>
   </body>
