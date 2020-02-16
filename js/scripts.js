@@ -19,4 +19,8 @@ function myFunction2() {
   console.log("The Century extracted: " + century_byte);
   console.log("Day you were born:" + formulae);
 
+  document.getElementById("print").innerHTML = Math.round(formulae);
+  let girls = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+  let pickedGirlsName = girls[(Math.round(formulae))] ;
+
 }
