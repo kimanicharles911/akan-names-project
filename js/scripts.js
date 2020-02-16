@@ -8,10 +8,13 @@ function myFunction2() {
   let month_byte = parseInt(date_byte[1]);
   let day_byte = parseInt(date_byte[2]);
 
+  let century_byte = date_byte[0].substr(0, 2);
 
   console.log("The Date is " + date_input);
   console.log("The Year input: " + year_byte);
   console.log("The Day input: " + day_byte);
-  console.log("The month input: " + month_byte)
+  console.log("The month input: " + month_byte);
+
+  console.log("The Century extracted: " + century_byte);
 
 }
