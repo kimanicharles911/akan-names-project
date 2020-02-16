@@ -36,10 +36,16 @@
                   <input type="date" class="form-control" id="date_input" placeholder="12-12-2012">
                 </div>
               </div>
-                Your Gender here: <select id="genders">
-                  <option>Male</option>
-                  <option>Female</option>
-                </select> <br> <br>
+              <div class="d-flex justify-content-center">
+                <div class="form-group col-md-2">
+                  <label class="text-warning" for="label2">Your Gender <span class="text-danger">here: </span></label>
+                  <select class="form-control form-control-sm" id="genders">
+                    <option disabled selected value> -- select gender -- </option>
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                </div>
+              </div>
                 <button type="button" value="submit" onclick="myFunction2()">Akanize :-)</button> <br> <br>
                 <!--<input type="button" onClick="theFunction(this.form)" value ="Check Date as entered">-->
                 <p id="print"></p>
