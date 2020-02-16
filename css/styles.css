@@ -5,3 +5,12 @@ html, body{
 h1{
   font-family: "Bookman Old Style";
 }
+.bg {
+  background-image: url("../images/akan-pic.jpg");
+  background-size: cover;
+  height:100%;
+  border: 2px solid pink;
+  padding-top: 6px;
+  padding-bottom:125px;
+  margin: 1px;
+}
