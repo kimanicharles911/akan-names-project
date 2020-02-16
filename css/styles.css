@@ -14,3 +14,11 @@ h1{
   padding-bottom:125px;
   margin: 1px;
 }
+.jumbotron{
+  padding:5px;
+}
+#jumbo1{
+  padding:5px;
+  background: none;
+  border: 0.5px solid green;
+}
