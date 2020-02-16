@@ -26,6 +26,9 @@ function myFunction2() {
   let pickedBoyName = boys[(Math.round(formulae))] ;
 
   let genders = document.getElementById("genders").value;
-
+  let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  let selectedDay = days[(Math.round(formulae))] ;
+  console.log("Day in Engkish: " + selectedDay);
+  console.log("Gender input: " + genders);
 
 }
