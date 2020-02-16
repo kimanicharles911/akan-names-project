@@ -46,4 +46,6 @@ function myFunction2() {
       alert("Please input the your true date of birth then select your gender kindly.");
   }
 
+  functionNewForm();
+
 }
