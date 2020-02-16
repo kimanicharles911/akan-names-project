@@ -28,7 +28,22 @@ function myFunction2() {
   let genders = document.getElementById("genders").value;
   let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   let selectedDay = days[(Math.round(formulae))] ;
-  console.log("Day in Engkish: " + selectedDay);
+  console.log("Day in English: " + selectedDay);
   console.log("Gender input: " + genders);
+
+  if(selectedDay !== null){
+    if(genders === "Male"){
+      document.getElementById("print").innerHTML = "You get the <em>Akan</em> name <strong>"+ pickedBoyName + "</strong>, because you were born on a <strong>"+ selectedDay + "</strong>.";
+    }
+    else if(genders === "Female"){
+      document.getElementById("print").innerHTML ="You get the <em>Akan</em> name <strong> "+ pickedGirlsName + "</strong>, because you were born on a <strong>" + selectedDay + "</strong>.";
+    }  
+    else{
+      alert("Please input the your true date of birth then select your gender kindly.");
+    }
+  }
+  else{
+      alert("Please input the your true date of birth then select your gender kindly.");
+  }
 
 }
