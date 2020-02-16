@@ -22,5 +22,7 @@ function myFunction2() {
   document.getElementById("print").innerHTML = Math.round(formulae);
   let girls = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
   let pickedGirlsName = girls[(Math.round(formulae))] ;
+  let boys = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
+  let pickedBoyName = boys[(Math.round(formulae))] ;
 
 }
