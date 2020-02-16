@@ -3,4 +3,5 @@ function functionNewForm() {
 }
 function myFunction2() {
   let date_input = document.getElementById("date_input").value;
+  let date_byte = date_input.split("-");
 }
