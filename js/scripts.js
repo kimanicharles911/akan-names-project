@@ -15,7 +15,7 @@ function myFunction2() {
   console.log("The Date is " + date_input);
   console.log("The Year input: " + year_byte);
   console.log("The Day input: " + day_byte);
-  console.log("The month input: " + month_byte);
+  console.log("The month input: " + month_byte)
 
   console.log("The Century extracted: " + century_byte);
   console.log("Day you were born:" + formulae);
@@ -29,7 +29,7 @@ function myFunction2() {
   let genders = document.getElementById("genders").value;
   let days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
   let selectedDay = days[(Math.round(formulae))] ;
-  console.log("Day in English: " + selectedDay);
+  console.log("Day in Engkish: " + selectedDay);
   console.log("Gender input: " + genders);
 
   if(selectedDay !== null){
@@ -47,6 +47,11 @@ function myFunction2() {
       alert("Please input the your true date of birth then select your gender kindly.");
   }
 
-  functionNewForm();
 
+  functionNewForm();
 }
+
+/*function theFunction (form){
+  var day_byte = form.date_input.value;
+  console.log("Day: " + day_byte);
+} */
