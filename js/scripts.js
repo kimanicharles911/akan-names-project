@@ -25,4 +25,7 @@ function myFunction2() {
   let boys = ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
   let pickedBoyName = boys[(Math.round(formulae))] ;
 
+  let genders = document.getElementById("genders").value;
+
+
 }
