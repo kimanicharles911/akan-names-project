@@ -1,0 +1,38 @@
+html, body{
+  height:680px;
+}
+
+h1{
+  font-family: "Bookman Old Style";
+}
+.bg {
+  background-image: url("../images/akan-pic.jpg");
+  background-size: cover;
+  height:100%;
+  border: 2px solid pink;
+  padding-top: 6px;
+  padding-bottom:125px;
+  margin: 1px;
+}
+.jumbotron{
+  padding:5px;
+}
+#jumbo1{
+  padding:5px;
+  background: none;
+  border: 0.5px solid green;
+}
+#jumbo2{
+  padding:5px;
+  background: none;
+  border: 0.5px solid yellow;
+}
+#jumbo3{
+  padding:5px;
+  background: none;
+  border: 0.5px solid blue;
+}
+#jumbo4{
+  padding:5px;
+  background: none;
+}
