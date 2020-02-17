@@ -1,5 +1,5 @@
 # The Akan App
-#### Hey! This is an application that requests for your birthday date and then calculates the day of the week you were born and then depending on your gender outputs the respective Akan name. 16th February 2019.
+Hey! This is an application that requests for your birthday date and then calculates the day of the week you were born and then depending on your gender outputs the respective Akan name. 16th February 2019.
 #### By Charles Kimani Mwangi
 ## Description
 What are Akan names? 
@@ -21,3 +21,5 @@ What are Akan names?
 kimanicharles911@gmail.com
 ## Link to the Portfolio Online Page
 https://kimanicharles911.github.io/akan-names-project/
+## License and copyright information.
+Copyright (c) Charles Kimani Contributor. All rights reserved. See my MIT license for details.
