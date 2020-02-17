@@ -34,10 +34,10 @@ function myFunction2() {
 
   if(selectedDay !== null){
     if(genders === "Male"){
-      document.getElementById("print").innerHTML = "You get the <em>Akan</em> name is <strong>"+ pickedBoyName + "</strong>, because you were born on a <strong>"+ selectedDay + "</strong>.";
+      document.getElementById("print").innerHTML = "You get the <em>Akan</em> name <strong>"+ pickedBoyName + "</strong>, because you were born on a <strong>"+ selectedDay + "</strong>.";
     }
     else if(genders === "Female"){
-      document.getElementById("print").innerHTML ="You get the <em>Akan</em> name is <strong> "+ pickedGirlsName + "</strong>, because you were born on a <strong>" + selectedDay + "</strong>.";
+      document.getElementById("print").innerHTML ="You get the <em>Akan</em> name <strong> "+ pickedGirlsName + "</strong>, because you were born on a <strong>" + selectedDay + "</strong>.";
     }  
     else{
       alert("Please input the your true date of birth then select your gender kindly.");
