@@ -22,4 +22,4 @@ kimanicharles911@gmail.com
 ## Link to the Portfolio Online Page
 https://kimanicharles911.github.io/akan-names-project/
 ## License and copyright information.
-Copyright (c) Charles Kimani Contributor. All rights reserved. See my MIT LICENSE.txt in this repository for more details.
+Copyright (c) Charles Kimani Contributor. All rights reserved. See [my MIT LICENSE]https://github.com/kimanicharles911/akan-names-project/blob/master/LICENSE.txt for details.
